@@ -41,7 +41,9 @@ B4. Khởi tạo và thực hiện.
 
 	git init
 	
-	git clone https://github.com/chuyendemang/chuyendemang-dhth8.git #tài liệu PDF + hướng dẫn có trong này (*).
+	git clone https://github.com/chuyendemang/chuyendemang-dhth8.git 
+	
+* tài liệu PDF + hướng dẫn có trong này (*).
 	
 	git config -l
 	
