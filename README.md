@@ -7,13 +7,13 @@
 	HƯỚNG DẪN CHO NGƯỜI MỚI BẮT ĐẦU DÙNG GIT
 -------------------------------------------------
 
-B1. Dùng Terminate cài đặt Git: 
+**B1**. Dùng Terminate cài đặt Git: 
 
 	sudo apt-get -y install git
 	
 Nhập password để download.
 
-B2. thực hiện tạo thư mục và thực hiện Git
+**B2**. thực hiện tạo thư mục và thực hiện Git
 
 cd Desktop   #đi đến thư mục Desktop
 
@@ -23,7 +23,7 @@ cd DirWord-1    #đi đến thư mục
 
 touch hello     #tạo file hello
 
-B3. tạo Chứng thực cho Thư mục.1 online Hoặc Offline
+**B3**. tạo Chứng thực cho Thư mục.1 online Hoặc Offline
 
 #online
 
@@ -37,7 +37,7 @@ git config --global user.email "ngockhanh111021994@gmail.com"
 	
 	git config --local user.email "ngockhanh111021994@gmail.com"
 	
-B4. Khởi tạo và thực hiện.
+**B4**. Khởi tạo và thực hiện.
 
 	git init
 	
@@ -47,19 +47,19 @@ B4. Khởi tạo và thực hiện.
 	
 	git config -l
 	
-B5. ghi nội dung vào file hello
+**B5**. ghi nội dung vào file hello
 
 	echo "chuyen de mang lop dhth8" >hello
 	
-B6. đọc nội dung lên màn hình
+**B6**. đọc nội dung lên màn hình
 
 	cat hello
 	
-B7. chỉ ra mục và thư mục hiện tại.
+**B7**. chỉ ra mục và thư mục hiện tại.
 
 	git status
 	
-B8. thực hiện code
+**B8**. thực hiện code
 
 	git add hello   # thêm vào file hello với nội dung echo vừa ghi.
 	
@@ -75,7 +75,7 @@ B8. thực hiện code
 	
 	git log		#kiểm tra các commit của log trên.
 	
-B9. Thực hiện BRANCH (tạo nhánh, rẽ). mặc định Git luôn có master là branch mặc định.
+**B9**. Thực hiện BRANCH (tạo nhánh, rẽ). mặc định Git luôn có master là branch mặc định.
 branch là con trỏ, trỏ tới commit.
 
 	git branch -v	#xem các branch cua git.
@@ -124,7 +124,7 @@ branch là con trỏ, trỏ tới commit.
 	
 	git checkout master	#chuyển sang branch master.
 	
-B10. Thực hiện MERGING (gộp,hợp lại).
+**B10**. Thực hiện MERGING (gộp,hợp lại).
 
 	git merge UPPER		#chuyển branch master tới UPPER.(lưu ý branch là con trỏ).
 	
@@ -140,7 +140,7 @@ B10. Thực hiện MERGING (gộp,hợp lại).
 	
 	git diff
 	
-B11. Thực hiện reset xóa các branch vửa tạo.
+**B11**. Thực hiện reset xóa các branch vửa tạo.
 (khuyến khích ko nên xóa, mà tạo 1 branch mới vì branch là con trỏ tạo sẽ nhanh hơn).
 
 	echo "Lê Ngọc Khánh DHTH8" >>hello
