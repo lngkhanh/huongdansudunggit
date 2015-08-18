@@ -175,9 +175,8 @@ lưu ý có thể xóa các commit theo:
 ------------------------------------------------------
 	CHÚC CÁC BẠN HOÀN THÀNH TỐT BÀI TẬP TUẦN 1.
 	
-Hướng Dẫn Được viết bới ngockhanhIT chia sẽ cùng biết
+	MỌI NGƯỜI CÙNG NHAU CHIA SẼ KINH NGHIỆM :D
 ------------------------------------------------------
-
 
 Ngoài ra có các software dùng Github trên windows mình thấy cũng tốt và nhanh, nếu ai thích thì download về dùng thử
 Link: 
