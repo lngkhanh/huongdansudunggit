@@ -175,11 +175,22 @@ lưu ý có thể xóa các commit theo:
 ------------------------------------------------------
 	CHÚC CÁC BẠN HOÀN THÀNH TỐT BÀI TẬP TUẦN 1.
 	
-	Hướng Dẫn Được viết bới ngockhanhIT
+Hướng Dẫn Được viết bới ngockhanhIT chia sẽ cùng biết
 ------------------------------------------------------
 
 
+Ngoài ra có các software dùng Github trên windows mình thấy cũng tốt và nhanh, nếu ai thích thì download về dùng thử
+Link: 
 
+	https://desktop.github.com/ 
+	
+Video Hướng dẫn sữ dụng cơ bản: 
+
+	https://www.youtube.com/watch?v=bdqnubR3P1Y
+	
+Làm việc nhóm với Git: 	
+
+	https://www.youtube.com/watch?v=tPYk9HthLG0
  
 
 
