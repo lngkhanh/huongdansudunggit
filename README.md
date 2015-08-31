@@ -1,4 +1,4 @@
-# HƯỚNG DẪN SỮ DỤNG GIT
+# PHẦN I: HƯỚNG DẪN SỮ DỤNG GIT CƠ BẢN
 
 
 
@@ -15,25 +15,25 @@ Nhập password để download.
 
 **B2**. thực hiện tạo thư mục và thực hiện Git
 
-cd Desktop   #đi đến thư mục Desktop
+	cd Desktop   #đi đến thư mục Desktop
 
-mkdir DirWord-1  #tạo 1 thư mục tên là DirWiord-1
+	mkdir DirWord-1  #tạo 1 thư mục tên là DirWiord-1
 
-cd DirWord-1    #đi đến thư mục
+	cd DirWord-1    #đi đến thư mục
 
-touch hello     #tạo file hello
+	touch hello     #tạo file hello
 
 **B3**. tạo Chứng thực cho Thư mục.1 online Hoặc Offline
 
 #online
 
-git config --global user.name "lengockhanh"
+	git config --global user.name "12015851.Lê Ngọc Khánh"
 
-git config --global user.email "ngockhanh111021994@gmail.com"
+	git config --global user.email "ngockhanh111021994@gmail.com"
 
 #offline
 
-	git config --local user.name "lengockhanh"
+	git config --local user.name "l12015851.Lê Ngọc Khánh"
 	
 	git config --local user.email "ngockhanh111021994@gmail.com"
 	
@@ -190,6 +190,66 @@ Video Hướng dẫn sữ dụng cơ bản:
 Làm việc nhóm với Git: 	
 
 	https://www.youtube.com/watch?v=tPYk9HthLG0
+	
+
+
+--------------------------------------------
+
+# PHẦN II: HƯỚNG DẪN PUSH VÀ PULL DỮ LIỆU
+
+--------------------------------------------
+
+Phần này hướng dẫn các bạn đưa dữ liệu lên Git.
+
+sau khi đăng kí tài khoản của các bạn thì dùng git đễ push dữ liệu lên mạng sau khi edit.
+
+Ví dụ: mình có trang web  https://www.github.com/lngkhanh/huongdansudunggit và có các file bên trong.
+
+**B1.** mình clone web về dưới dạng HTTPS.
+
+  	git clone https://www.github.com/lngkhanh/huongdansudunggit
+  
+**B2.** Xem có file đã Clone về thành công hay không.
+
+	 ls -a
+  
+**B3.** Edit code của bạn. thêm hay xóa dữ liệu trong file.
+
+  	cd huongdansudunggit
+  
+  	touch adderFile # mình tự tạo file tên adderFile
+  
+  	echo "this is file edit code add" >adderFile
+  
+  	cat adderFile 
+  
+  	git add adderFile 
+  
+  
+	git commit -m "file added"  
+  
+  	git push  
+**Điền mật khẩu và pass của tài khoản Github (trên website www.github.com). 
+  
+**đẩy nôi dung lên Git mặc định là master. nếu edit thi dùng (git push origin master )
+
+** kiểm tra trên website có file đã cập nhật chưa !
+
+**B4.** Thực hiện pull (kéo) dữ liệu xuống. dùng lệnh pull
+
+  	git pull  #điền tk và passwd như push
+  
+** đữ liệu được cập nhật tự động. nếu chưa cập nhât các bạn clone lại hoặc đưa URL trực tiếp vào.
+
+-----------------------------------------
+
+	CHÚC CÁC BẠN THÀNH CÔNG
+	Mọi ý kiến connit bên dưới hoặc liên hệ: 
+**	Facebook: https://www.facebook.com/lengockhanh8a
+**	Gmail: ngockhanh111021994@gmail.com
+
+-----------------------------------------
+
  
 
 
