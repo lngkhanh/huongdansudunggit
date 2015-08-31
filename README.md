@@ -1,4 +1,4 @@
-# HƯỚNG DẪN SỮ DỤNG GIT
+# PHẦN I: HƯỚNG DẪN SỮ DỤNG GIT CƠ BẢN
 
 
 
@@ -190,10 +190,12 @@ Video Hướng dẫn sữ dụng cơ bản:
 Làm việc nhóm với Git: 	
 
 	https://www.youtube.com/watch?v=tPYk9HthLG0
+	
+
 
 --------------------------------------------
 
-**	PHẦN TIẾP THEO ĐƯA DỮ LIỆU LÊN GIT**
+# PHẦN II: HƯỚNG DẪN PUSH VÀ PULL DỮ LIỆU
 
 --------------------------------------------
 
