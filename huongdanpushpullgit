@@ -1,0 +1,21 @@
+Phần này hướng dẫn các bạn đưa dữ liệu lên Git.
+
+sau khi đăng kí tài khoản của các bạn thì dùng git đễ push dữ liệu lên mạng sau khi edit.
+Ví dụ: mình có trang web  https://www.github.com/lngkhanh/huongdansudunggit và có các file bên trong.
+*B1.* mình clone web về dưới dạng HTTPS.
+  git clone https://www.github.com/lngkhanh/huongdansudunggit
+B2. Xem có file đã Clone về thành công hay không.
+  ls -a
+*B3.* Edit code của bạn. thêm hay xóa dữ liệu trong file.
+  cd huongdansudunggit
+  touch adderFile # mình tự tạo file tên adderFile
+  echo "this is file edit code add" >adderFile
+  cat adderFile 
+  git add adderFile 
+  git commit -m "file added"  
+  git push  #Điền mật khẩu và pass của tài khoản Github (trên website www.github.com). 
+#đẩy nôi dung lên Git mặc định là master. nếu edit thi dùng (git push origin master )
+# kiểm tra trên website có file đã cập nhật chưa !
+*B4.* Thực hiện pull (kéo) dữ liệu xuống. dùng lệnh pull
+  git pull  #điền tk và passwd như push
+# đữ liệu được cập nhật tự động
