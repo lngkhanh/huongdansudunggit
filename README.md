@@ -241,6 +241,38 @@ Ví dụ: mình có trang web  https://www.github.com/lngkhanh/huongdansudunggit
   
 ** đữ liệu được cập nhật tự động. nếu chưa cập nhât các bạn clone lại hoặc đưa URL trực tiếp vào.
 
+
+-----------------------------------------
+	HUONG DAN CHUNG THUC SSH TOI GITHUB
+-----------------------------------------
+
+- chung thuc ssh voi server github lenh nhu sau:
+
+- sao do nhan enter va cho ket thuc, voi email la tk cua gmail minhdk git
+
+ ssh-keygen -t rsa -b 2048 -C "ngockhanh111021994@gmail.com"
+
+- sau do copy key ssh ra desktop
+
+sudo cp ~/.ssh/id_rsa.pub ~/Desktop/
+
+- copy den server github, dau tien dang nhap vao github bang website
+
+https://github.com/settings/ssh. nhan vao Add SSH Key
+
+- Terminaotr di den thu muc luu key: cd Desktop
+
+cat id_rsa.pub
+
+copy noi dung doc duoc lenh website. voi title bat ky va noi dung la ssh-key vua copy duoc va nhan addkey. OK xong.
+
+vidu: ssh_key: 
+
+S/QntKhaTvVZFX9HexZtWyg6krgCZTvdjIc6jZ9o3pelNdrNCBLdJ3tVHoHElXxC+xF4OJc9SaOhwhGCmjd3mhFKmHJyMJrVOni7Sw8GLhmDhssvheJ3DNw1kffe8z1h4e77ucCqaYZv7bmTKn+o3UlhLIuZ77doO0lA1ureFRghD4/PalzvStgbtRAroBegMXFSW8lBA/w859QtU9M3/lUF5oZJObW3kWu88nX2QJVUxyV3dgXB0+QMv7QE44ieB1/+HBM7cZ4+LV8Uh0LwKCIrZcUzk+vnxEE5xGCb6MOP ngockhanh111021994@gmail.com
+
+bao gom email dk luc nay luon nha.
+
+
 -----------------------------------------
 
 	CHÚC CÁC BẠN THÀNH CÔNG
